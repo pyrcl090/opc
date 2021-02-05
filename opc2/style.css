@@ -1,0 +1,320 @@
+@font-face{
+    font-family:"Sporting Grotesque";
+    src:url("/fonts/Sporting_Grotesque-Regular_web.woff") format("woff");
+    src:url("/fonts/Sporting_Grotesque-Regular_web.woff2")format("woff2");
+}
+@font-face{
+  font-family:"Blocus";
+    src:url("/fonts/blocuswebfont.woff") format("woff");
+}
+body{
+  font-family:'Sporting Grotesque', sans-serif;
+  font-family:'Blocus', serif;
+}
+.container{}
+
+#top{}
+
+.gradient{
+
+position: absolute;
+width: 192.56px;
+height: 192.56px;
+left: 365.21px;
+top: -0.97px;
+
+background: radial-gradient(50% 50% at 50% 50%, #C4FF45 0%, rgba(184, 183, 255, 0) 100%);
+}
+.gradientone{
+position: absolute;
+width: 804.15px;
+height: 804.15px;
+left: 281.62px;
+top: 459.18px;
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(184, 183, 255, 0.38) 0%, #FFFFFF 100%);
+}
+.gradienttwo{
+position: absolute;
+width: 804.15px;
+height: 804.15px;
+left: -308.29px;
+top: 1581.32px;
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(232, 157, 181, 0.46) 0%, #FFFFFF 100%);
+}
+.gradientthree{
+position: absolute;
+width: 804.15px;
+height: 804.15px;
+left: 777.02px;
+top: 2518.15px;
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.37) 0%, #FFFFFF 100%);
+}
+
+.title{
+  
+position: absolute;
+width: 1304.21px;
+height: 102.02px;
+left: 67.89px;
+top: 44.3px;
+
+font-family: Sporting Grotesque;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 110px;
+/* or 229% */
+
+text-align: center;
+
+color: #000000;
+}
+
+.one{
+  position: absolute;
+width: 140.91px;
+height: 167.12px;
+left: 320.58px;
+top: 329.54px;
+
+font-family: Blocus;
+font-style: normal;
+font-weight: normal;
+font-size: 288px;
+line-height: 110px;
+/* or 38% */
+
+text-align: center;
+
+color: #000000;
+}
+.onetext{
+  position: absolute;
+width: 569.12px;
+height: 203.96px;
+left: 108.92px;
+top: 496.65px;
+
+font-family: Sporting Grotesque;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+/* or 117% */
+
+text-align: center;
+
+color: #000000;
+}
+.onemedia{
+  position: absolute;
+width: 543.58px;
+height: 306.95px;
+left: 777.02px;
+top: 400.16px;
+
+}
+
+.two{position: absolute;
+width: 140.91px;
+height: 163.45px;
+left: 829.91px;
+top: 1014.36px;
+
+font-family: Blocus;
+font-style: normal;
+font-weight: normal;
+font-size: 288px;
+line-height: 110px;
+/* or 38% */
+
+text-align: center;
+
+color: #000000;}
+.twotext{
+  position: absolute;
+width: 569.12px;
+height: 171.04px;
+left: 629.02px;
+top: 1177.81px;
+
+font-family: Sporting Grotesque;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 26px;
+/* or 108% */
+
+text-align: center;
+
+color: #000000;
+}
+.twomedia{
+  position: absolute;
+
+left: 136.36px;
+top: 1039.81px;
+}
+
+.three{
+position: absolute;
+width: 140.91px;
+height: 163.45px;
+left: 401.8px;
+top: 1626.49px;
+
+font-family: Blocus;
+font-style: normal;
+font-weight: normal;
+font-size: 288px;
+line-height: 110px;
+/* or 38% */
+
+text-align: center;
+
+color: #000000;}
+.threetext{
+  position: absolute;
+width: 569.12px;
+height: 203.04px;
+left: 186.7px;
+top: 1826.39px;
+
+font-family: Sporting Grotesque;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 26px;
+/* or 108% */
+
+text-align: center;
+
+color: #000000;
+}
+.threemedia{
+  position: absolute;
+
+left: 882.54px;
+top: 1516.31px;
+}
+
+.four{
+  position: absolute;
+width: 140.91px;
+height: 163.45px;
+left: 947.2px;
+top: 2316.69px;
+
+font-family: Blocus;
+font-style: normal;
+font-weight: normal;
+font-size: 288px;
+line-height: 110px;
+/* or 38% */
+
+text-align: center;
+
+color: #000000;
+}
+.fourtext{
+  
+position: absolute;
+width: 569.12px;
+height: 198.24px;
+left: 733.09px;
+top: 2539.54px;
+
+font-family: Sporting Grotesque;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 26px;
+/* or 108% */
+
+text-align: center;
+
+color: #000000;
+}
+.fourmedia{
+  position: absolute;
+left: 186.7px;
+top: 2103.31px;
+}
+
+.five{
+  position: absolute;
+width: 140.91px;
+height: 163.45px;
+left: 354.96px;
+top: 2919.78px;
+
+font-family: Blocus;
+font-style: normal;
+font-weight: normal;
+font-size: 288px;
+line-height: 110px;
+/* or 38% */
+
+text-align: center;
+
+color: #000000;
+}
+.fivetext{
+  position: absolute;
+width: 611.29px;
+height: 260px;
+left: 108.71px;
+top: 3119.68px;
+
+font-family: Sporting Grotesque;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 26px;
+/* or 108% */
+
+text-align: center;
+
+color: #000000;
+}
+.fivemedia{
+  position: absolute;
+
+left: 902.54px;
+top: 2776.78px;
+}
+
+.one:hover {
+  color:#C4FF45;
+}
+.two:hover {
+  color:#C4FF45;
+}
+.three:hover {
+  color:#C4FF45;
+}
+.four:hover {
+  color:#C4FF45;
+}
+.five:hover {
+  color:#C4FF45;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #C4FF45;
+}
+
+a:active {
+  color: black;
+}
