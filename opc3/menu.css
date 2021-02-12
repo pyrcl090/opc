@@ -1,0 +1,70 @@
+/* https://velvetyne.fr/ By Anton Moglia+ Jérémy Landes */
+@font-face{
+    font-family:"Ortica";
+    src:url("./fonts/Ortica_Light.woff") format("woff");
+}
+/* http://collletttivo.it/ By Benedetta Bovani */
+@font-face{
+  font-family:"Pilowlava";
+    src:url("./fonts/Pilowlava_Regular.woff") format("woff");
+}
+body{
+  font-family:"Ortica", serif;
+  background: #FF9494;
+}
+.container{
+  padding:10px;
+}
+
+.elipse{
+  position: absolute;
+  width: 743.54px;
+  height: 442.67px;
+  left: 24%;
+  top: 81.5px;
+  border: 4px solid #FF0000;
+  border-radius: 50%;
+}
+
+h1{
+  font-family:"Pilowlava", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 55px;
+  text-align: center;
+  color: #FF0000;
+  padding:190px;
+}
+
+h2{
+  font-family: "Pilowlava", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 55px;
+  text-align: center;
+  color: #FF0000;
+  padding:60px;
+}
+
+p{
+  font-family: "Ortica";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 43px;
+  text-align: center;
+  color: #FF0000;
+  padding:5px;
+}
+.elipse:hover{
+  position: absolute;
+  width: 743.54px;
+  height: 442.67px;
+  left: 24%;
+  top: 81.5px;
+  opacity:.5;
+  background:#FF0000;
+  border-radius: 50%;
+}
