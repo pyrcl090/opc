@@ -1,0 +1,67 @@
+@font-face{
+    font-family:"Ortica";
+    src:url("./fonts/Ortica_Light.woff") format("woff");
+}
+@font-face{
+  font-family:"Pilowlava";
+    src:url("./fonts/Pilowlava_Regular.woff") format("woff");
+}
+body{
+  font-family:"Ortica", serif;
+  background: rgb(255,0,0);
+  background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(152,155,174,1) 100%);
+}
+.container{
+  padding:10px;
+}
+.elipse{
+  position: absolute;
+  width: 743.54px;
+  height: 718.42px;
+  left: 348.23px;
+  top: 270.29px;
+  border: 3px solid #FF9494;
+  border-radius: 50%;
+}
+h1{
+  padding:-10px;
+  font-family:"Pilowlava", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+  color: #FF9494;
+}
+h2{
+ font-family: "Ortica";
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 64px;
+  line-height: 277px;
+  text-align: center;
+  color: #FF9494; 
+
+}
+.twentyone{
+  line-height: 0px;
+}
+.bottom{
+  line-height: 577px;
+}
+
+.elipse:hover {
+  position: absolute;
+  width: 743.54px;
+  height: 718.42px;
+  left: 348.23px;
+  top: 270.29px;
+  Background:#FF9494;
+  opacity:.5;
+  border-radius: 50%;
+}
+
+
+
+
+
