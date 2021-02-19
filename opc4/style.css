@@ -1,0 +1,115 @@
+@font-face{
+    font-family: "Messapia bold";
+    src: url(./fonts/Messapia-Bold.woff);
+}
+@font-face{
+    font-family: "Messapia regular";
+    src: url(./fonts/Messapia-Regular.woff);
+}
+body{
+    font-family: "Messapia Bold";
+    position: flex;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+img{
+    width:100%;
+}
+
+h1{
+    font-size: 3em;
+    margin-bottom: 5%;
+
+}
+h2{
+    text-align: left;
+    font-size: 2em;
+}
+p{
+    font-family:"Messapia regular";
+    text-align: right;
+    font-size: 1.5em;
+}
+
+@media only screen and (min-width:0px) {
+
+  body{ 
+    background-color: #ffa21f;
+  }
+  h1{
+    color: #fcdd51;
+  }
+  h2{
+    color: #fcdd51;   
+  }
+  p{
+    color: #fcdd51; 
+  }
+  #pomelo{
+    display:none;
+  }  
+  #orange{
+    display:none;
+  }
+  #kumquat{
+    display:inline-block;
+  }
+}
+@media only screen and (min-width:800px) {
+   body{ 
+      background: #fc3f19;
+   }  
+   h1{
+    color: black;
+  }
+  h2{
+    color: black;   
+  }
+  
+  p{
+    color: black; 
+  }
+
+  #pomelo{
+    display:none;
+  }  
+  #orange{
+    display:inline-block;
+  }
+  #kumquat{
+    display:none;
+  }
+}
+
+
+@media only screen and (min-width:1200px) {
+   body{ 
+      background-color: #a6c458;
+   }
+   h1{
+    
+    color: white;
+  }
+  h2{
+    color: white;   
+  }
+  img{
+    width:70%;
+  }
+  p{
+    color: white; 
+  }
+  #pomelo{
+    display:inline-block;
+  }  
+  #orange{
+    display:none;
+  }
+  #kumquat{
+    display:none;
+  }
+}
