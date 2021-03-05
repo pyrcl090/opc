@@ -1,0 +1,130 @@
+
+@font-face{
+  font-family: "ApfelBrukt";
+  src: url(./fonts/ApfelGrotezk-Brukt.woff);
+}
+@font-face{
+  font-family: "ApfelGrotezk";
+  src: url(./fonts/ApfelGrotezk-Regular.woff);
+}
+
+body{
+  font-family: "ApfelBrukt";
+  background-color: black;
+  
+}
+.barbapapa{
+  background-color: grey;
+  border-radius: 80px;
+  padding:5%;
+  margin: 5%;
+  display:flex;
+}
+a{
+  text-decoration: none;
+  color:white;
+  opacity:.5;
+}
+.two{
+  border-style:solid;
+  border-style: 1px;
+  border-radius: 50px;
+  margin-top: 10%;
+  border-color: white;
+  padding:3%;
+}
+.blob{
+  display:none;
+}
+
+.more{
+  border-style:solid;
+  border-style: 1px;
+  border-radius: 50px;
+  border-color: white;
+  height:fit-content;
+  width: fit-content;
+  align-items: flex-end;
+  padding: 2%;
+}
+h1{
+  color:white;
+  font-size: 50px;
+}
+h2{
+  color:chartreuse;
+  
+}
+a:link {
+  color:white;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+a:visited {
+  color: chartreuse;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: white;
+}
+
+
+p{
+  font-family: "ApfelGrotezk";
+  color:white;
+  font-size: 20px;
+  line-height: 26px;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.col{
+  flex:1;
+  max-width: 400px;
+  flex-wrap: wrap;
+}
+.blob{
+  display:none;
+}
+@media only screen and (max-width:600px){
+  body{
+    background-color:white;
+  }
+  .blob{
+    display:flex;
+    padding:20%;
+    transform: rotate(-40deg);
+  }
+  
+  h2{
+    color: white;
+  }
+  .barbapapa{
+    display:none;
+
+    
+  }
+}
+@media only screen and (max-width:380px){
+  body{
+    background-color:chartreuse;
+  }
+  .barbapapa{
+    display:inline-block;
+    padding:5%;
+    margin-top: 2%;
+    
+  }
+  .blob{
+    display:none;
+  }
+}
