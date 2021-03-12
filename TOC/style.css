@@ -1,0 +1,47 @@
+@font-face{
+    font-family:"Sporting Grotesque";
+    src:url("./fonts/Sporting_Grotesque-Regular_web.woff") format("woff");
+}
+body{
+ font-family: "Sporting Grotesque";
+ background-color: #a39c9b;
+}
+.container{
+padding: 5em;
+}
+
+h1{
+  color:#C4FF45;
+}
+
+a:link {
+    color:  black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color:  black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: whitesmoke;
+    text-decoration: line-through;
+  }
+  
+  /* selected link */
+  a:active {
+    color:  #C4FF45;
+  }
+
+.table{
+    font-family: "Sporting Grotesque";
+    font-size: 6em;  
+}
+p{
+  line-height: 20px;
+}
+.opc{
+    font-family: "Sporting Grotesque";
+    font-size: 1em; 
+}
