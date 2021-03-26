@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Sporting";
+    src: url("./fonts/Sporting_Grotesque-Regular_web.woff2") format("woff2"); 
+}
+@font-face {
+    font-family: "Blocus";
+    src: url("./fonts/blocuswebfont.woff") format("woff2");  
+}
+
+body{
+    /* background: rgb(255,38,110);
+    background: radial-gradient(circle, #ff246d 0%, #ff2626 25%, rgba(255,255,255,1) 100%);; */
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+    
+}
+
+h1{
+    font-family: Blocus;
+    font-size: 4em;
+    color: #ff2626;
+    text-align: left;
+    padding-bottom: 4%;
+}
+p{
+    font-family: Sporting;
+    text-align: right;
+    line-height: 1.5em;
+    color: #ff2626;
+    padding-bottom: 2%;
+}
+#recette{
+    text-align: left;
+}
+
+span{
+    color: #ff2626;
+    text-align: left; 
+    font-family: Blocus;
+    font-size: 3em;
+}
+img{
+    width: 100%;
+    border-radius: 60%;
+}
